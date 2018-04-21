@@ -1,11 +1,62 @@
+h1 {
+    background: teal;
+    color: white;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Crete Round', serif;
+}
+
+input:focus {
+    background: rgb(230, 220, 220);
+    border: turquoise;
+    outline: tan;
+}
+
+input {
+    font-size: 18px;
+    color: rgb(150, 177, 150);
+    background: rgb(221, 215, 215);
+    width: 100%;
+    padding: 13px 13px 13px 20px;
+    box-sizing: border-box; 
+}
+
+li {
+    background: lightslategrey;
+    height: 40px;
+    line-height: 40px;
+    color: lightcoral;
+}
+
+li:nth-child(2n) {
+    background: rgb(100, 155, 155);
+}
+
+
 #container {
-    background: lightblue;
+    background: lightgreen;
     width: 360px;
-    margin: 0 auto;
+    margin: 100px auto;
     border: 2px solid grey;
+    box-shadow: #2980b9;
 }
 
 .completed {
     color: grey;
     text-decoration: line-through;
 }
+
+
+
