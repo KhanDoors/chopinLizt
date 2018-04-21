@@ -1,6 +1,6 @@
 h1 {
     background: teal;
-    color: lightcoral;
+    color: rgb(170, 49, 49);
     margin: 0;
     padding: 10px 20px;
     text-transform: uppercase;
@@ -20,7 +20,7 @@ body {
 
 .fa-plus {
     float: right;
-    color: lightcoral;
+    color: rgb(199, 42, 42);
 }
 
 input:focus {
@@ -38,7 +38,7 @@ body {
 
 input {
     font-size: 18px;
-    color: lightcoral;
+    color: rgb(175, 54, 54);
     background: rgb(221, 215, 215);
     width: 100%;
     padding: 13px 13px 13px 20px;
@@ -49,7 +49,7 @@ li {
     background: lightslategrey;
     height: 40px;
     line-height: 40px;
-    color: lightcoral;
+    color: rgb(189, 50, 50);
 }
 
 li:nth-child(2n) {
