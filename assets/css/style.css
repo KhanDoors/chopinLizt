@@ -1,6 +1,6 @@
 h1 {
     background: teal;
-    color: white;
+    color: lightcoral;
     margin: 0;
     padding: 10px 20px;
     text-transform: uppercase;
@@ -18,15 +18,27 @@ body {
     font-family: 'Crete Round', serif;
 }
 
+.fa-plus {
+    float: right;
+    color: lightcoral;
+}
+
 input:focus {
     background: rgb(230, 220, 220);
     border: turquoise;
     outline: tan;
 }
 
+body {
+    background: #283048;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #859398, #283048);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #859398, #283048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
 input {
     font-size: 18px;
-    color: rgb(150, 177, 150);
+    color: lightcoral;
     background: rgb(221, 215, 215);
     width: 100%;
     padding: 13px 13px 13px 20px;
@@ -54,7 +66,7 @@ li:nth-child(2n) {
 }
 
 .completed {
-    color: grey;
+    color: rgb(199, 174, 174);
     text-decoration: line-through;
 }
 
